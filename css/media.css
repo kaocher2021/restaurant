@@ -1,0 +1,30 @@
+@media(max-width:575.98px){
+
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+        border: transparent;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::before {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 0;
+        margin-top: 53px;
+    }
+
+    .banner-content .content h1 {
+        font-size: 45px;
+    }
+}
