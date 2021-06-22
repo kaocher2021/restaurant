@@ -1,5 +1,12 @@
 $(function(){
 
+  $('.back-to-top').click(function(){
+
+    $('html, body').animate({scrollTop:0}, 1000);
+
+  });
+
+
     $('.banner-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -9,5 +16,9 @@ $(function(){
         speed:1500,
         arrows:false,
       });
+
+      $('.venobox').venobox(); 
+
+      
 
 });
